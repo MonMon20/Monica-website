@@ -1,0 +1,359 @@
+/* COMMON CSS STYLE */
+.container{
+  padding-top: 30px;
+  text-align: center;
+  margin: auto;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+/* visited link */
+a:visited {
+  color: white;
+}
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: green;
+}
+
+.starter-template {
+  padding: 5rem 1.5rem;
+  text-align: center;
+  color: black;
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+/* BACKGROUND IMAGES */
+.bgimg-1, .bgimg-2, .bgimg-3 , .bgimg-4 {
+  position: relative;
+  opacity: 0.90;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("../images2/SpringHamshare.jpg");
+  min-height: 800px;
+}
+
+.bgimg-2 {
+  background-image: url("../images2/SummerHamshare.jpg");
+  min-height: 800px;
+}
+
+.bgimg-3 {
+  background-image: url("../images2/AutumnHamshare.jpg");
+  min-height: 800px;
+}
+
+.bgimg-4 {
+  background-image: url("../images2/WinterHamshare.jpg");
+  min-height: 800px;
+}
+
+.bgimg-5 {
+  background-image: url("../images/Traffic9.jpg");
+  min-height: 800px;
+}
+
+.bgimg-6 {
+  background-image: url("../images2/Winterhamshare2.jpg");
+  min-height: 800px;
+}
+
+/* CONNECTION PARTS */
+.connection-text{
+  colour: white;
+  padding-top:30px;
+  padding-bottom:30px;
+  text-align: center;
+  font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  /* background-color: #111; */
+  color: #fff;
+  opacity: 0.8;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 .bgimg-4 .bgimg-6{
+    background-attachment: scroll;
+  }
+}
+
+.row{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+.col {
+  padding: 20px;
+}
+
+.links {
+  padding: 20px 0 50px 0;
+  margin: 0 auto;
+  display:inline-block;
+  text-align: center;
+  max-width: 90%;
+}
+
+/*arrow/pointer*/
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  border-top: 20px solid  rgba(100, 5, 75, 1);
+  margin: 0 auto;
+}
+
+/*MAIN CIRCLE*/
+.circle {
+  position: relative;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url("../images/circlebackground.jpg");
+  background-size: cover;
+  border-color: rgba(84, 1, 59, 1);
+  border-style: solid;
+
+  box-shadow: inset 0px 0px 30px rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 0px 0px 30px rgba(0,0,0,0.3);
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* .containercircle-box{
+  width: 30px;
+} */
+
+/*Style menu items*/
+.links{
+  /* width:60px; */
+  position:relative;
+  /* float: left; */
+  /* margin-right: 100px; */
+}
+
+.menu a {
+  padding: 10px 30px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10%;
+  line-height: 48px;
+}
+.menu a.indianred:hover{
+  background-color: #a55869;
+}
+.menu a.darkslategray:hover{
+  background-color: #544855;
+}
+.menu a.sienna:hover{
+  background-color: #a56c4d;
+}
+.menu a.darkslateblue:hover{
+  background-color: #524464;
+}
+.menu a.Dimgray:hover{
+  background-color: #66445a;
+}
+.menu a.darkslategray2:hover{
+  background-color: #383e46;
+}
+
+/*Border on images*/
+img {
+  border-style: solid;
+  border-color: black;
+}
+
+/* .arrow-down .circle{
+    margin-right: 10px;
+} */
+
+/*LITTLE CIRCLES*/
+.circle li {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: transparent;
+  list-style: none;
+  text-align: center;
+  font: 20px/50px Helvetica, Arial, sans-serif;
+}
+
+
+
+/*position small circles*/
+.circle li:nth-child(1) {
+  top: 13px;
+  left: 122px;
+}
+
+.circle li:nth-child(2) {
+  top: 70px;
+  left: 218px;
+  -webkit-transform: rotate(60deg);
+  -moz-transform: rotate(60deg);
+  -ms-transform: rotate(60deg);
+  -o-transform: rotate(60deg);
+  transform: rotate(60deg);
+}
+
+.circle li:nth-child(3) {
+  top: 180px;
+  left: 220px;
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  transform: rotate(120deg);
+}
+
+.circle li:nth-child(4) {
+  top: 235px;
+  left: 123px;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.circle li:nth-child(5) {
+  top: 183px;
+  left: 26px;
+  -webkit-transform: rotate(240deg);
+  -moz-transform: rotate(240deg);
+  -ms-transform: rotate(240deg);
+  -o-transform: rotate(240deg);
+  transform: rotate(240deg);
+}
+
+.circle li:nth-child(6) {
+  top: 68px;
+  left: 25px;
+  -webkit-transform: rotate(300deg);
+  -moz-transform: rotate(300deg);
+  -ms-transform: rotate(300deg);
+  -o-transform: rotate(300deg);
+  transform: rotate(300deg);
+}
+
+
+/* test colour circle one */
+.rounded-circle{
+  border-radius: 50%;
+  padding: 30px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+#colour-a55869{
+    background-color: #a55869;
+}
+#colour-544855{
+    background-color: #544855;
+}
+#colour-a56c4d{
+    background-color: #a56c4d;
+}
+#colour-524464{
+    background-color: #524464;
+}
+#colour-66445a{
+    background-color: #66445a;
+}
+#colour-383e46{
+    background-color: #383e46;
+}
+/* test colour button */
+
+/*content next to circle spinner styling*/
+#signdescription {
+  text-align: center;
+  padding: 40px 30px;
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 400px;
+}
+
+#signdescription h1 {
+  font-size: 30px;
+}
+
+#signdescription p {
+  font-size: 18px;
+}
+/*end of circle menu css*/
+#card1 {
+  padding: 40px 30px;
+
+/* Inpiration page CSS*/
+.text-center{
+  padding-top: 20px;
+  text-align: center;
+  width: 100%;
+  /* padding: 40px 30px; */
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* Instgram logo */
+#Emma-ins-page{
+  width:12px;
+  height: 12px;
+}
