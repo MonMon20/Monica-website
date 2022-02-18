@@ -16,7 +16,7 @@
   height: 20px;
 }
 
-.Emma-description{
+.description{
   text-align: center;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
@@ -28,7 +28,7 @@
 }
 
 /* BACKGROUND IMAGES */
-.bgimg-4, {
+/* .bgimg-4, {
   position: relative;
   background-color: white;
   opacity: 0.30;
@@ -36,7 +36,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 /* GALLERY IMAGES STYLE */
 .gallery {
